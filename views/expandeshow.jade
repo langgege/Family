@@ -1,0 +1,12 @@
+﻿table.table.table-striped
+  thead
+    tr
+      th 花费类型
+      th 花费金额
+      th 花费人
+  tbody
+  - for (var i = 0; i < expandes.length; i = i + 1)
+    tr    
+      td=expandes[i].costtype
+      td=expandes[i].cost
+      td=expandes[i].username
